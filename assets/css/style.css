@@ -752,7 +752,20 @@ section {
   font-weight: 700;
 }
 
-.ral {
+.center {
+  text-align: center;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 100%;
+  float: inline-start;
+  padding: 20px;
+  border: 2px solid blue;
 }
 
 .cta p {
